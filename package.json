@@ -1,0 +1,37 @@
+{
+  "name": "pocapi",
+  "version": "1.0.0",
+  "description": "API for POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"vivek singh\"\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armstrom02/POC.git"
+  },
+  "keywords": [
+    "\"API\"",
+    "\"RESTFUL\"",
+    "\"PoC\""
+  ],
+  "author": "Vivek Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armstrom02/POC/issues"
+  },
+  "homepage": "https://github.com/armstrom02/POC#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.0.0-rc1",
+    "nexmo": "^2.2.0",
+    "ng2-jwt": "^0.2.0"
+  }
+}
